@@ -5,7 +5,7 @@ return(
   <section id="home"className='flex sm:flex-row flex-col-reverse items-center justify-evenly px-6 min-h-screen scroll-mt-20'>
     <div className='flex flex-col gap-6 items-center sm:items-start text-center sm:text-left'>
       <h1 className='text-4xl text-white  font-bold'>Hello I'm <span className='text-5xl sm:text-6xl font-extrabold text-[#00eaff] '>Aparna</span></h1>
-       <h2 className='text-3xl font-semibold  text-white'>Frontend Developer(Fresher)</h2>
+       <h2 className='text-3xl font-semibold  text-white'>Frontend Developer</h2>
        <p className='text-xl text-white max-w-md'>I create clean, responsive and beautiful user interfaces.</p>
        <div className='flex  items-center gap-6 '>
         <a 
