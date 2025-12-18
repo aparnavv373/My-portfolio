@@ -8,6 +8,7 @@ import vscode from '../assets/VisualStudio.svg'
 import github from '../assets/github.svg'
 import netlify from '../assets/netlify.svg'
 import Git from '../assets/git.svg'
+import Vercel from '../assets/Vercel.svg'
 
 const skillsData = [
 
@@ -28,6 +29,7 @@ const skillsData = [
              {name:"Github",icon:github},
              {name:"Netlify",icon:netlify},
               {name:"Git",icon:Git},
+                 {name:"Vercel",icon:Vercel},
         ]
     },
      {
