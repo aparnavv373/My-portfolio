@@ -4,20 +4,20 @@ const projectSet=[
     {
         title:"Recipe Finder",
         description:"A fully responsive recipe search application that fetches real-time recipes using Spoonacular API.Includes search filters, ingredient display.",
-        LiveDemo:"https://fantastic-elf-bc8940.netlify.app/",
+        LiveDemo:"recipe-finder-vert-zeta.vercel.app",
         GitHubRepo:"https://github.com/aparnavv373/Recipe-finder",
         },
     {
         title:"Task-manager",
         description:"A responsive task manager that allows adding, editing, deleting, and filtering tasks. Automatically saves tasks in local storage.",
-         LiveDemo:"https://ubiquitous-alpaca-e3eeee.netlify.app/",
+         LiveDemo:"https://aparnavv373.github.io/Task-manager/",
          GitHubRepo:"https://github.com/aparnavv373/Task-manager" ,
     },
        {
         title:"Random Quote Generator",
         description:"A simple quote generator that displays a new motivational quote on button click. Fully responsive and minimal UI.",
-         LiveDemo:"https://resonant-dasik-b5c09a.netlify.app/",
-         GitHubRepo:"https://github.com/aparnavv373/Frontend-development/tree/main/Random_quote_generator",
+         LiveDemo:" https://aparnavv373.github.io/Random-Qoute-Generator/",
+         GitHubRepo:"https://github.com/aparnavv373/Random-Qoute-Generator",
     },
     
     
