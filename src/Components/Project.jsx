@@ -4,7 +4,7 @@ const projectSet=[
     {
         title:"Recipe Finder",
         description:"A fully responsive recipe search application that fetches real-time recipes using Spoonacular API.Includes search filters, ingredient display.",
-        LiveDemo:"recipe-finder-vert-zeta.vercel.app",
+        LiveDemo:"https://recipe-finder-vert-zeta.vercel.app/",
         GitHubRepo:"https://github.com/aparnavv373/Recipe-finder",
         },
     {
