@@ -24,7 +24,7 @@ const projectSet=[
 ]
     return(
 
-<section id="project" className="mt-8 min-h-screen flex flex-col items-center scroll-mt-20 ">
+<section id="project" className="flex flex-col items-center py-20 px-6">
    
     <h1 className="text-[#0b161c] text-center text-5xl font-extrabold ">Projects</h1>
     <div className=" text-white grid sm:grid-cols-3 sm:justify-items-center gap-10 p-10 rounded-xl break-words " >

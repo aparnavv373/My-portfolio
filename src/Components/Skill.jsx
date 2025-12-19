@@ -41,7 +41,7 @@ const skillsData = [
 
 function Skill(){
     return(
-        <section id="skill" className='text-white py-10 min-h-screen scroll-mt-20'>
+        <section id="skill" className='text-white py-20 px-6 '>
             <h2 className='text-[#0b161c] text-center text-5xl font-extrabold  '>Skills</h2>
             <div className="grid sm:grid-cols-2  gap-8 p-4">
     {skillsData.map((data, index) => (

@@ -58,7 +58,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen w-full flex items-center p-10 justify-center scroll-mt-20"
+      className=" w-full flex items-center py-20 px-6 justify-center "
     >
       <div className="border p-10 bg-black/0 rounded-xl shadow-[#16222A] w-full sm:w-[60%]">
         <h2 className="text-center text-white font-bold text-5xl mb-6">
@@ -100,11 +100,13 @@ function Contact() {
           </div>
 
           <div className="flex justify-center">
+              <div className="scale-[0.75] sm:scale-100 origin-center">
             <ReCAPTCHA
               ref={recaptchaRef}
               sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
               onChange={(value) => setCaptchaValue(value)}
             />
+              </div>
           </div>
 
           <button

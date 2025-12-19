@@ -5,8 +5,8 @@ function Navbar(){
     const[open,setOpen]=useState(false)
     return(
         
-         <nav className="flex items-center justify-between bg-gradient-to-r from-[#3A6073] to-[#16222A] rounded-full shadow-lg px-6 py-4 text-white fixed right-4 left-4 z-40">
-        <a href="#home" className="font-bold text-lg">Aparna</a>
+         <nav className="flex items-center justify-between bg-gradient-to-r from-[#3A6073] to-[#16222A] rounded-full shadow-lg px-6 py-4 text-white fixed right-4 left-4 z-40 scroll-mt-24 ">
+        <a href="#home" className="font-bold text-lg">Aparna v v</a>
 
         {/* Desktop Menu */}
         <ul className="hidden sm:flex space-x-8">

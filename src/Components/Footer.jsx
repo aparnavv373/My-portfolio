@@ -9,7 +9,7 @@ function Footer(){
          <a href="aparnavv836@gmail.com" className="text-3xl"><SiGmail /></a>
           </div>
           <div>
-                <p className="text-xl text-white">&copy; 2025 Aparna. All rights reserved.</p>
+                <p className="text-sm sm:text-xl text-white text-center">&copy; 2025 Aparna. All rights reserved.</p>
           </div>
           </footer>
          

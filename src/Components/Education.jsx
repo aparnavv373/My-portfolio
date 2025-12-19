@@ -25,7 +25,7 @@ function Education(){
     ]
 return(
     
-    <section id="education" className="min-h-screen w-full flex flex-col items-center py-10 justify-center gap-4 scroll-mt-20 ">
+    <section id="education" className="w-full flex flex-col items-center py-20 px-6 justify-center gap-4">
          <h1 className="text-[#0b161c] text-5xl font-extrabold">Education</h1>
          <div className="relative flex flex-col gap-8  p-10 border-[#16222A]  w-full sm:w-[60%]">
           {educationSet.map((data,index)=>(

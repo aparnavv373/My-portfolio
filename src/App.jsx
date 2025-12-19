@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-r from-[#16222A] to-[#3A6073] p-4">
       <Navbar />
 
-      <div className="pt-24">
+      <div className="pt-24 flex flex-col gap-20">
         <Home />
         <About />
         <Education />
