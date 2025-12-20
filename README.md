@@ -7,7 +7,7 @@ It showcases my skills, projects, education, and includes a working contact form
 - Responsive and modern UI
 - Smooth scroll navigation
 - Projects with Live Demo and GitHub links
-- Contact form with EmailJS and Google reCAPTCHA
+- Contact form with EmailJS
 - Social links (GitHub, LinkedIn, Gmail)
 
 

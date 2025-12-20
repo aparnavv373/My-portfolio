@@ -1,13 +1,13 @@
 import{ useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-recaptcha";
+
 
 function Contact() {
   const form = useRef();
-  const recaptchaRef = useRef(null);
+ 
 
   const [result, setResult] = useState("");
-  const [captchaValue, setCaptchaValue] = useState(null);
+  
   const [loading, setLoading] = useState(false);
 
   const sendEmail = async (e) => {
@@ -22,10 +22,6 @@ function Contact() {
       return;
     }
 
-    if (!captchaValue) {
-      setResult("Please verify that you are not a robot.");
-      return;
-    }
 
     setLoading(true);
     setResult("Sending...");
@@ -42,8 +38,8 @@ function Contact() {
       form.current.reset();
 
    
-      recaptchaRef.current.reset();
-      setCaptchaValue(null);
+    
+ 
 
     
       setTimeout(() => setResult(""), 4000);
@@ -99,15 +95,7 @@ function Contact() {
             />
           </div>
 
-          <div className="flex justify-center">
-              <div className="scale-[0.75] sm:scale-100 origin-center">
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
-              onChange={(value) => setCaptchaValue(value)}
-            />
-              </div>
-          </div>
+        
 
           <button
             type="submit"
