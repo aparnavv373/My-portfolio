@@ -9,7 +9,7 @@ return(
        <p className='text-xl text-white max-w-md'>I create clean, responsive and beautiful user interfaces.</p>
        <div className='flex  items-center gap-6 '>
         <a 
-  href="https://drive.google.com/file/d/1xHjRQllzuXife_Pia73PKuykanwLRwTy/view?usp=drivesdk" 
+  href="https://drive.google.com/file/d/1x73kXN1cEvBFLA7yLyXgHdshpBmmLKYC/view?usp=drivesdk" 
   target="_blank" 
   className="bg-[#3A6073] hover:bg-[#16222A] text-white px-4 py-2 rounded-xl"  
 >
